@@ -22,10 +22,8 @@ app.post('/todos', (req, res) => {
    });
 });
 
-// app.get('/todos', () => {
-//
-// });
-
 app.listen(port, () => {
    console.log(`Started on port ${port}`);
 });
+
+module.exports = {app};
